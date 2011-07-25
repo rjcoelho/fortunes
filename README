@@ -1,0 +1,5 @@
+My collection of fortune cookies
+To install:
+	$ git clone https://rjcoelho@github.com/rjcoelho/fortune.git .
+	$ cd fortune
+	$ sudo ln -s . /usr/share/games/fortunes/$USER
