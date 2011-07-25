@@ -1,5 +1,9 @@
 My collection of fortune cookies
-To install:
-	$ git clone https://rjcoelho@github.com/rjcoelho/fortune.git .
+How to install:
+	$ git clone https://github.com/rjcoelho/fortune.git .
 	$ cd fortune
-	$ sudo ln -s . /usr/share/games/fortunes/$USER
+	$ sudo ln -s `pwd`/pragmatic /usr/share/games/fortunes/pramatic
+	$ sudo ln -s `pwd`/pragmatic.dat /usr/share/games/fortunes/pramatic.dat
+How to add new fortune cookies:
+	* write a text file with % seperating cookies
+	$ strfile cookiefile 
